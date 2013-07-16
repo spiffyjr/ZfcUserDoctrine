@@ -23,7 +23,7 @@ class ModuleOptionsFactoryTest extends \PHPUnit_Framework_TestCase
         $sm->setService(
             'Configuration',
             array(
-                'zfc_user_doctrine_orm' => array(
+                'zfc_user_doctrine' => array(
                     'object_manager' => 'foo\bar'
                 )
             )

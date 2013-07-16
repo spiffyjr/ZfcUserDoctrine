@@ -12,14 +12,14 @@ return array(
         ),
 
         'driver' => array(
-            'zfc_user_doctrine_orm' => array(
+            'zfc_user_doctrine' => array(
                 'class' => 'Doctrine\ORM\Mapping\Driver\XmlDriver',
                 'paths' => array(__DIR__ . '/orm')
             ),
 
             'orm_default' => array(
                 'drivers' => array(
-                    'ZfcUserDoctrine\Entity' => 'zfc_user_doctrine_orm',
+                    'ZfcUserDoctrine\Entity' => 'zfc_user_doctrine',
                 )
             )
         )
@@ -39,7 +39,7 @@ return array(
         ),
     ),
 
-    'zfc_user_doctrine_orm' => array(
+    'zfc_user_doctrine' => array(
         'adapter_service'        => 'doctrine.authenticationadapter.orm_default',
         'object_manager_service' => 'Doctrine\ORM\EntityManager'
     ),
