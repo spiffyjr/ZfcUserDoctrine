@@ -16,8 +16,8 @@
     },
     "autoload": {
         "psr-0": {
-            "ZfcUserDoctrineORM": "src/",
-            "ZfcUserDoctrineORMTest": "test/"
+            "ZfcUserDoctrine": "src/",
+            "ZfcUserDoctrineTest": "test/"
         }
     }
 }

@@ -1,2 +1,2 @@
 <?php
-require_once __DIR__ . '/src/ZfcUserDoctrineORM/Module.php';
+require_once __DIR__ . '/src/ZfcUserDoctrine/Module.php';

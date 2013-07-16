@@ -1,6 +1,6 @@
 <?php
 
-namespace ZfcUserDoctrineORM\Entity;
+namespace ZfcUserDoctrine\Entity;
 
 use ZfcUser\Entity\UserInterface;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace ZfcUserDoctrineORM\Exception;
+namespace ZfcUserDoctrine\Exception;
 
 interface ExceptionInterface
 {

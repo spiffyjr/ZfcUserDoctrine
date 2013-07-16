@@ -1,9 +1,9 @@
 <?php
 
-namespace ZfcUserDoctrineORM;
+namespace ZfcUserDoctrine;
 
 use Zend\ServiceManager\ServiceLocatorInterface;
-use ZfcUserDoctrineORM\Service\AbstractServiceFactory;
+use ZfcUserDoctrine\Service\AbstractServiceFactory;
 
 class ExtensionFactory extends AbstractServiceFactory
 {
@@ -15,8 +15,8 @@ class ExtensionFactory extends AbstractServiceFactory
      */
     public function createService(ServiceLocatorInterface $serviceLocator)
     {
-        /** @var \ZfcUserDoctrineORM\ModuleOptions $options */
-        $options = $serviceLocator->get('ZfcUserDoctrineORM\ModuleOptions');
+        /** @var \ZfcUserDoctrine\ModuleOptions $options */
+        $options = $serviceLocator->get('ZfcUserDoctrine\ModuleOptions');
         $adapter = $serviceLocator->get($options->getAdapterService());
 
         return new Extension($adapter, $this->getObjectManager($serviceLocator));

@@ -1,9 +1,9 @@
 <?php
 
-namespace ZfcUserDoctrineORMTest\Options;
+namespace ZfcUserDoctrineTest\Options;
 
 use Zend\ServiceManager\ServiceManager;
-use ZfcUserDoctrineORM\ModuleOptionsFactory;
+use ZfcUserDoctrine\ModuleOptionsFactory;
 
 class ModuleOptionsFactoryTest extends \PHPUnit_Framework_TestCase
 {
@@ -18,7 +18,7 @@ class ModuleOptionsFactoryTest extends \PHPUnit_Framework_TestCase
         $sm->setService('Configuration', array());
         $sm->setAllowOverride(true);
 
-        $this->assertInstanceOf('ZfcUserDoctrineORM\ModuleOptions', $factory->createService($sm));
+        $this->assertInstanceOf('ZfcUserDoctrine\ModuleOptions', $factory->createService($sm));
 
         $sm->setService(
             'Configuration',
@@ -31,7 +31,7 @@ class ModuleOptionsFactoryTest extends \PHPUnit_Framework_TestCase
 
         $options = $factory->createService($sm);
 
-        $this->assertInstanceOf('ZfcUserDoctrineORM\ModuleOptions', $options);
+        $this->assertInstanceOf('ZfcUserDoctrine\ModuleOptions', $options);
         $this->assertEquals('foo\bar', $options->getObjectManager());
     }
 }

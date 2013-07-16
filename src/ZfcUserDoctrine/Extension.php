@@ -1,6 +1,6 @@
 <?php
 
-namespace ZfcUserDoctrineORM;
+namespace ZfcUserDoctrine;
 
 use Doctrine\Common\Persistence\ObjectManager;
 use DoctrineModule\Authentication\Adapter\ObjectRepository as ObjectRepositoryAdapter;
@@ -9,7 +9,7 @@ use Zend\EventManager\EventManagerInterface;
 use ZfcUser\Extension\AbstractExtension;
 use ZfcUser\Extension\Authentication;
 use ZfcUser\Extension\Register;
-use ZfcUserDoctrineORM\Authentication\DoctrineAdapter;
+use ZfcUserDoctrine\Authentication\DoctrineAdapter;
 
 class Extension extends AbstractExtension
 {

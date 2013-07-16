@@ -1,14 +1,14 @@
 <?php
 
-namespace ZfcUserDoctrineORMTest\Entity;
+namespace ZfcUserDoctrineTest\Entity;
 
-use ZfcUserDoctrineORM\Entity\User;
-use ZfcUserDoctrineORM\Entity\UserCookie;
+use ZfcUserDoctrine\Entity\User;
+use ZfcUserDoctrine\Entity\UserCookie;
 
 class UserCookieTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers \ZfcUserDoctrineORM\Entity\UserCookie
+     * @covers \ZfcUserDoctrine\Entity\UserCookie
      * @dataProvider optionsProvider
      */
     public function testOptions($key, $value)

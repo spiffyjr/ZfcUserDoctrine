@@ -1,8 +1,8 @@
 <?php
 
-namespace ZfcUserDoctrineORMTest\Options;
+namespace ZfcUserDoctrineTest\Options;
 
-use ZfcUserDoctrineORM\ModuleOptions;
+use ZfcUserDoctrine\ModuleOptions;
 
 class ModuleOptionsTest extends \PHPUnit_Framework_TestCase
 {

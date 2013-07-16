@@ -1,6 +1,6 @@
 <?php
 
-namespace ZfcUserDoctrineORM\Authentication;
+namespace ZfcUserDoctrine\Authentication;
 
 use DoctrineModule\Authentication\Adapter\ObjectRepository;
 use Zend\Crypt\Password\Bcrypt;

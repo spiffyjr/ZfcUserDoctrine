@@ -5,7 +5,7 @@ return array(
         'authentication' => array(
             'orm_default' => array(
                 'object_manager'      => 'Doctrine\ORM\EntityManager',
-                'identity_class'      => 'ZfcUserDoctrineORM\Entity\User',
+                'identity_class'      => 'ZfcUserDoctrine\Entity\User',
                 'identity_property'   => 'email',
                 'credential_property' => 'password'
             )
@@ -19,7 +19,7 @@ return array(
 
             'orm_default' => array(
                 'drivers' => array(
-                    'ZfcUserDoctrineORM\Entity' => 'zfc_user_doctrine_orm',
+                    'ZfcUserDoctrine\Entity' => 'zfc_user_doctrine_orm',
                 )
             )
         )
@@ -29,11 +29,11 @@ return array(
 
     'zfc_user' => array(
         'extensions' => array(
-            'doctrine' => 'ZfcUserDoctrineORM\Extension',
+            'doctrine' => 'ZfcUserDoctrine\Extension',
 
             'user' => array(
                 'options' => array(
-                    'entity_class' => 'ZfcUserDoctrineORM\Entity\User'
+                    'entity_class' => 'ZfcUserDoctrine\Entity\User'
                 )
             )
         ),

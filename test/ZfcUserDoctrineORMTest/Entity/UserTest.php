@@ -1,14 +1,14 @@
 <?php
 
-namespace ZfcUserDoctrineORMTest\Entity;
+namespace ZfcUserDoctrineTest\Entity;
 
 use DateTime;
-use ZfcUserDoctrineORM\Entity\User;
+use ZfcUserDoctrine\Entity\User;
 
 class UserTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers \ZfcUserDoctrineORM\Entity\User
+     * @covers \ZfcUserDoctrine\Entity\User
      * @dataProvider optionsProvider
      */
     public function testOptions($key, $value)

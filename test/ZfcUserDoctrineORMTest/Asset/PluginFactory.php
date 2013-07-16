@@ -1,9 +1,9 @@
 <?php
 
-namespace ZfcUserDoctrineORMTest\Asset;
+namespace ZfcUserDoctrineTest\Asset;
 
 use Zend\ServiceManager\ServiceLocatorInterface;
-use ZfcUserDoctrineORM\Plugin\AbstractPluginFactory;
+use ZfcUserDoctrine\Plugin\AbstractPluginFactory;
 
 class PluginFactory extends AbstractPluginFactory
 {

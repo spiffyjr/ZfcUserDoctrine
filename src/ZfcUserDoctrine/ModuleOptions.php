@@ -1,6 +1,6 @@
 <?php
 
-namespace ZfcUserDoctrineORM;
+namespace ZfcUserDoctrine;
 
 use Zend\Stdlib\AbstractOptions;
 

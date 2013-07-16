@@ -1,6 +1,6 @@
 <phpunit bootstrap="./bootstrap.php" colors="true">
-    <testsuite name="ZfcUserDoctrineORM Module Tests">
-        <directory>./ZfcUserDoctrineORMTest</directory>
+    <testsuite name="ZfcUserDoctrine Module Tests">
+        <directory>./ZfcUserDoctrineTest</directory>
     </testsuite>
     <filter>
         <whitelist>

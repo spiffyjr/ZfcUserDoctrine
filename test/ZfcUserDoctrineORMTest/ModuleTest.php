@@ -1,8 +1,8 @@
 <?php
 
-namespace ZfcUserDoctrineORMTest;
+namespace ZfcUserDoctrineTest;
 
-use ZfcUserDoctrineORM\Module;
+use ZfcUserDoctrine\Module;
 
 class ModuleTest extends \PHPUnit_Framework_TestCase
 {
@@ -17,7 +17,7 @@ class ModuleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers \ZfcUserDoctrineORM\Module::getConfig
+     * @covers \ZfcUserDoctrine\Module::getConfig
      */
     public function testGetConfig()
     {
@@ -28,14 +28,14 @@ class ModuleTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers \ZfcUserDoctrineORM\Module::getAutoloaderConfig
+     * @covers \ZfcUserDoctrine\Module::getAutoloaderConfig
      */
     public function testGetAutoloaderConfig()
     {
         $expected = array(
             'Zend\Loader\StandardAutoloader' => array(
                 'namespaces' => array(
-                    'ZfcUserDoctrineORM' => realpath(__DIR__ . '/../../src/ZfcUserDoctrineORM')
+                    'ZfcUserDoctrine' => realpath(__DIR__ . '/../../src/ZfcUserDoctrine')
                 )
             )
         );

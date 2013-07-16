@@ -7,7 +7,7 @@ return array(
         'DoctrineORMModule',
         'ZfcUser',
         'ZfcUserRemember',
-        'ZfcUserDoctrineORM'
+        'ZfcUserDoctrine'
     ),
     'module_listener_options' => array(
         'config_glob_paths'    => array(

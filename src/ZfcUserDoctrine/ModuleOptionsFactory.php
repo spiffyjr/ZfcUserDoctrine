@@ -1,6 +1,6 @@
 <?php
 
-namespace ZfcUserDoctrineORM;
+namespace ZfcUserDoctrine;
 
 use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
