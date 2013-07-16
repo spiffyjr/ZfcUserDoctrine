@@ -1,0 +1,23 @@
+{
+    "name": "zf-commons/zfc-user-doctrine",
+    "require": {
+        "php": ">=5.3.3",
+        "doctrine/doctrine-orm-module": "0.*",
+        "zf-commons/zfc-user": "dev-master"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.*",
+        "phpunit/phpunit": "3.*",
+        "satooshi/php-coveralls": "dev-master",
+        "spiffy/spiffy-test": "dev-master",
+        "squizlabs/php_codesniffer":   "1.4.*",
+        "zendframework/zend-test": "2.*",
+        "zf-commons/zfc-user-remember": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "ZfcUserDoctrineORM": "src/",
+            "ZfcUserDoctrineORMTest": "test/"
+        }
+    }
+}
